@@ -1,0 +1,9 @@
+Shell
+{Create Folder}
+BIMrxDBS
+	default = BIMrxDBS
+	icon = "Y:\Shared\Egnyte Projects\BU 101\500 Estimating\Estimate Templates\BIMrxDBS FAB Estimator\Programming Only\LB_Icon.ico"
+	Position = "Top"
+	
+{Create SubFolder}
+	command = "Y:\Shared\Egnyte Projects\BU 101\500 Estimating\Estimate Templates\BIMrxDBS FAB Estimator\BIMrxDBS Shop Order.bat" "%1"
