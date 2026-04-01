@@ -1,0 +1,16 @@
+# <type>: <short summary>
+#
+# Types: feat, fix, refactor, docs, test, chore
+# Example: fix: correct template path in BIMrxDBS Shop Order.bat
+#
+# Why:
+# -
+#
+# What changed:
+# -
+#
+# Validation:
+# -
+#
+# Related:
+# - Issue/PR: 

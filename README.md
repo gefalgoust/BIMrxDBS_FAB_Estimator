@@ -1,5 +1,7 @@
 # FAB Estimator – `.fest` Bundle (v4 – silent, Option C implemented)
 
+See [GitHub/Git shortcuts guide](GITHUB_SHORTCUTS.md) for commit aliases, message format, and `Commit.bat` usage.
+
 **Highlights**
 - Handler copies the batch to **%TEMP%** and launches **locally** (avoids network security prompt).
 - Batch uses **Strategy C → D only**: open local template copy; fallback to **Excel COM** helper.
