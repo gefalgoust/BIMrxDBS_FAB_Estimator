@@ -12,6 +12,29 @@
 - `RegisterFESTFileType.bat` / `UnregisterFESTFileType.bat`
 - `AssociationCheck.bat` – dumps `.fest` association to `%TEMP%\FEST_Association.txt`.
 
+## Active Folder Layout
+Keep these in the project root:
+- `OpenFest.ps1`
+- `BIMrxDBS Shop Order.bat`
+- `OpenExcelFromTemplate.ps1`
+- `RegisterFESTFileType.bat`
+- `UnregisterFESTFileType.bat`
+- `AssociationCheck.bat`
+- `BIMrxDBS Shop Order.csv`
+
+Keep this template in:
+- `Programming ONLY\2025_FAB-Estimator.xltm`
+
+Legacy shell-integration files are archived under:
+- `10 Archive\Legacy Shell Integration`
+
+Additional non-runtime items are archived under:
+- `10 Archive\Optional Tools\OpenwithExcel`
+- `10 Archive\Samples\01_Test`
+- `10 Archive\Samples\Blank CSV`
+- `10 Archive\Workbook Copies`
+- `10 Archive\Legacy Assets`
+
 ## Setup
 1) Place all files together in your tools folder.
 2) Run **RegisterFESTFileType.bat** once (per user).

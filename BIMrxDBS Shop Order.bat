@@ -14,9 +14,13 @@ set "filePath=%~1"
 if not exist "%filePath%" exit /b 3
 
 REM ---- Paths ----
-set "destinationPath=Y:\Shared\Egnyte Projects\BU 101\500 Estimating\Estimate Templates\BIMrxDBS FAB Estimator\BIMrxDBS Shop Order.csv"
-set "excelTemplate=Y:\Shared\Egnyte Projects\BU 101\500 Estimating\Estimate Templates\BIMrxDBS FAB Estimator\Programming ONLY\2025_FAB-Estimator.xltm"
-set "psComHelper=%~dp0OpenExcelFromTemplate.ps1"
+REM OpenFest.ps1 launches this temp-copied batch with WorkingDirectory set to the project folder.
+set "projectDir=%CD%"
+set "destinationPath=%projectDir%\BIMrxDBS Shop Order.csv"
+set "excelTemplate=%projectDir%\Programming ONLY\2025_FAB-Estimator.xltm"
+set "psComHelper=%projectDir%\OpenExcelFromTemplate.ps1"
+
+if not exist "%excelTemplate%" exit /b 6
 
 REM Ensure destination dir exists
 for %%D in ("%destinationPath%") do set "destDir=%%~dpD"
